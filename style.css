@@ -1,0 +1,52 @@
+/*pēc klases*/
+.note{
+    color:blueviolet;
+    font-size: 15px;
+}
+
+.link{
+    color: crimson;
+}
+
+
+/*pēc ID*/
+#pirmais{
+    color:darkblue;
+    font-style: italic;
+}
+
+
+/*pēc elementa nosaukuma*/
+h3 {
+    color:darkorchid;
+    background-color:black;
+}
+/*
+h3,p {
+    color:darkorchid;
+    background-color:black;
+}*/
+
+.full {
+    border-style: groove;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.left{
+    background-color:cornflowerblue;
+}
+
+.right {
+    background-color:grey;
+}
+
+#vecums{
+    width: 50px;
+    height: 10px;
+}
+
+
+
+
+

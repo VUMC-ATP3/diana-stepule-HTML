@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mana lapa</title>
+    <link href="style.css" rel="stylesheet">
+</head>   
+
+<body>
+    <div class="full">
+        <div class="left">
+    <h1 id="pirmais" >Šis ir mans pirmais HTML dokuments</h1>
+
+    <h2 class="note">Šī ir pirmā rindkopa</h2>
+
+    <!-- komentārs  - var komentēt ar (CNTR + /) - un noņent komentaru-->
+
+<p class="note">
+    <br><a class="link" href="https://www.lipsum.com/feed/html" target="_blank">LINKS</a>
+    
+    <br>Lorem ipsum dolor sit amet, <strong>adipiscing </strong> adipiscing elit. Proin lacinia purus ut nulla iaculis, vitae sagittis felis commodo. In mollis arcu id lacus rutrum vestibulum. <br> Pellentesque porta ullamcorper enim eu hendrerit. Fusce vitae nulla et felis efficitur varius. Nam blandit nunc neque, id lacinia nulla ultrices in. Quisque eleifend massa eu egestas porta. In hac habitasse platea dictumst. Vestibulum dictum ornare sem at pretium. Duis erat est, aliquet eu mauris ac, congue hendrerit ante. Morbi pellentesque libero sit amet ex commodo fringilla. Ut est arcu, posuere at rhoncus et, aliquam ac urna. Suspendisse fringilla nibh facilisis magna vulputate viverra. Fusce porta elit maximus vestibulum faucibus.
+    <h6>Apakšvirsraksts <a class="link" href="https://www.lipsum.com/feed/html"> LINKS</a></h6>
+    Ut est arcu, posuere at rhoncus et, aliquam ac urna. Suspendisse fringilla nibh facilisis magna vulputate viverra. Fusce porta elit maximus vestibulum faucibus.
+</p>
+<br>
+<br> 
+<br>
+<br>
+<h2>Šī ir otrā rindkopa</h2>
+<p>
+    Donec non tincidunt turpis. Mauris pellentesque consectetur augue, in pulvinar magna tincidunt vitae. Nunc consectetur nulla felis, eget laoreet tortor ullamcorper sed. Pellentesque id erat quis enim scelerisque pulvinar. Vestibulum ut mollis ante. Morbi fermentum euismod congue. Duis sollicitudin neque id felis vestibulum consectetur. Vestibulum dolor tellus, laoreet sed mollis eu, mattis ut nibh. Etiam blandit lorem augue, sed vehicula dui euismod ac. Vestibulum ornare interdum viverra. Pellentesque semper sapien vel metus vestibulum, sit amet vestibulum quam molestie. Etiam auctor nibh sit amet ornare hendrerit.
+</p>
+
+<h2>Bilde ar pavasari</h2>
+    <img src="img/spring.jpg" width="50%" alt="bilde ar picu"> <!--procenti no bildes-->
+</div>
+<div class="right">
+    <br>
+    <img src="https://static.onecms.io/wp-content/uploads/sites/23/2022/02/18/spring-activities-2000.jpg" height="100px" alt="bilde ar picu">
+
+    <br> 
+
+    <input id="vecums" maxlength="3">
+    <button id="poga">SPIED MANI</button>
+
+    <p>Lietotāja vecums ir: <strong> id="lietotajavecums"</strong></p>
+
+
+    <h3>Iepirkumu sarakasts</h3>
+    <ul>
+        <li><h3><a href="www.piens.lv>">Piens</a></h3></li>
+        <li>Maize</li>
+        <li>Cukurs</li>
+    </ul>
+
+    <h3 style="color:aqua; background-color:brown">Kā uzvārīt tēju</h3> <!--ta var ielikt stilu caur atributu, bet nevajag-->
+    <ol>
+        <li>Jāuzvāra ūdens</li>
+        <li>Jāber tēja kruzē</li>
+        <li>Jāielej ūdens krūze</li>
+        <li>Jāpagaida kamēr tēja ievilksies</li>
+    </ol>
+    </div>
+</div>
+</body>
+<script>
+    document.getElementById("poga").onclick =function() {
+        var vecums = document.getElementById("vecums").value
+        alert("Hello, tavs vecums" + vecums);
+        document.getElementById('lietotajavecums").innerText = vecums;
+    };
+</script>
+</html>
+
+stackoverflow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
