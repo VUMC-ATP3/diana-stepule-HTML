@@ -1,49 +1,35 @@
-/*pēc klases*/
-.note{
-    color:blueviolet;
-    font-size: 15px;
-}
 
-.link{
-    color: crimson;
+h1 {
+    color:rgb(241, 103, 177);
+    background-color:lightgrey;
+    
 }
 
 
-/*pēc ID*/
-#pirmais{
-    color:darkblue;
-    font-style: italic;
+.heading{
+    color:aqua ;
+    background-color:rgb(241, 103, 177);
+    font-size: 25px;
+    font-style: unset;
 }
 
-
-/*pēc elementa nosaukuma*/
-h3 {
-    color:darkorchid;
-    background-color:black;
-}
-/*
-h3,p {
-    color:darkorchid;
-    background-color:black;
-}*/
 
 .full {
     border-style: groove;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 45% 65%;
 }
 
 .left{
-    background-color:cornflowerblue;
+    background-color:rgb(95, 95, 239);
 }
 
 .right {
-    background-color:grey;
+    background-color:lightgrey;
 }
 
-#vecums{
-    width: 50px;
-    height: 10px;
+.link{
+    color: rgb(241, 103, 177);
 }
 
 
